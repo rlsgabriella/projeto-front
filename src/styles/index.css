@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+.loader {
+  @apply bg-blue-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition;
+}
+
+.download-btn {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition;
+}

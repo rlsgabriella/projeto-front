@@ -1,17 +1,11 @@
-import axios from "axios";
-import "./App.css";
-
-const api = axios.create({
-  baseURL: "http://localhost:3001",
-});
+import React from "react";
+import Home from "./pages/Home";
+import "./styles/index.css";
 
 function App() {
-  api.get("/usuarios").then((res) => {
-    console.log(res)
-  })
   return (
-    <div>
-      <h1>Usuários</h1>
+    <div className="min-h-screen bg-gray-900 text-white">
+      <Home />
     </div>
   );
 }
