@@ -26,7 +26,7 @@ function UploadImage({ setImage, setResult, setLoading }) {
       console.error("Erro ao remover fundo", err);
     } finally {
       setLoading(false);
-    }
+    } 
   };
 
   return (

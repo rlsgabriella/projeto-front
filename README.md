@@ -1,12 +1,33 @@
-# React + Vite
+# Frontend – RemoveBG App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Descrição
+Este é o frontend de um micro SaaS que permite ao usuário fazer upload de uma imagem e 
+visualizar a imagem com o fundo removido. Desenvolvido com React e estilizado com Tailwind CSS.
 
-Currently, two official plugins are available:
+# Tecnologias utilizadas
+- React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+- Vite
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Instalação
+
+1. git clone https://github.com/rlsgabriella/projeto-front.git
+
+2. Acesse o diretório
+- cd projeto-front
+
+3. Instale as dependências
+- npm install
+
+4. Execute o servidor de desenvolvimento
+- npm run dev
+
+📷 Funcionalidade
+Upload de imagem
+
+Envio para API backend
+
+Visualização da imagem com fundo removido 
+
