@@ -1,5 +1,7 @@
 import axios from "axios";
 import React from "react";
+import toast from "react-hot-toast";
+
 
 function UploadImage({ setImage, setResult, setLoading }) {
   const handleChange = async (e) => {
@@ -30,12 +32,21 @@ function UploadImage({ setImage, setResult, setLoading }) {
   };
 
   return (
-    <input
-      type="file"
-      accept="image/*"
-      onChange={handleChange}
-      className="block text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:border file:rounded file:text-sm file:font-semibold file:bg-blue-700 file:text-white hover:file:bg-blue-800"
-    />
+    <>
+      <label
+        htmlFor="test"
+        className="border-2 border-dashed border-gray-400 rounded-lg p-4 flex items-center text-white justify-center cursor-pointer hover:bg-blue-300 transition-colors font-bold m-4"
+      >
+       Escolher arquivo
+        <input
+          id="test"
+          className="hidden"
+          type="file"
+          accept="image/*"
+          onChange={handleChange}
+        />
+      </label>
+    </>
   );
 }
 
